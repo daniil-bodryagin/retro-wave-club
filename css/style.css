@@ -687,6 +687,7 @@ html, body {
 .message__text {
   position: relative;
   padding: 2rem;
+  text-align: center;
   font-size: 1.5rem;
   color: #fff;
   background-color: #000;
@@ -709,5 +710,5 @@ html, body {
 }
 
 .message__text:after {
-  right: 2px;
+  right: -2px;
 }
